@@ -1,0 +1,1968 @@
+{
+  "version": "3.0",
+  "dataset": "ISL-CSLRT Corpus",
+  "note": "Lean vocabulary file — no file paths. Run build_index.py to generate the full path index locally.",
+  "summary": {
+    "total_word_level_signs": 114,
+    "total_sentences": 101
+  },
+  "word_level_signs": [
+    {
+      "id": "word_001",
+      "gloss": "YOU",
+      "frame_samples": 110,
+      "level": "word"
+    },
+    {
+      "id": "word_002",
+      "gloss": "I_ME_MINE_MY",
+      "frame_samples": 97,
+      "level": "word"
+    },
+    {
+      "id": "word_003",
+      "gloss": "WHAT",
+      "frame_samples": 31,
+      "level": "word"
+    },
+    {
+      "id": "word_004",
+      "gloss": "HELP",
+      "frame_samples": 26,
+      "level": "word"
+    },
+    {
+      "id": "word_005",
+      "gloss": "FOOD",
+      "frame_samples": 23,
+      "level": "word"
+    },
+    {
+      "id": "word_006",
+      "gloss": "WATER",
+      "frame_samples": 21,
+      "level": "word"
+    },
+    {
+      "id": "word_007",
+      "gloss": "HOW",
+      "frame_samples": 20,
+      "level": "word"
+    },
+    {
+      "id": "word_008",
+      "gloss": "COLLEGE_SCHOOL",
+      "frame_samples": 18,
+      "level": "word"
+    },
+    {
+      "id": "word_009",
+      "gloss": "NOT",
+      "frame_samples": 16,
+      "level": "word"
+    },
+    {
+      "id": "word_010",
+      "gloss": "NICE",
+      "frame_samples": 15,
+      "level": "word"
+    },
+    {
+      "id": "word_011",
+      "gloss": "HURT",
+      "frame_samples": 14,
+      "level": "word"
+    },
+    {
+      "id": "word_012",
+      "gloss": "THANK",
+      "frame_samples": 14,
+      "level": "word"
+    },
+    {
+      "id": "word_013",
+      "gloss": "CRYING",
+      "frame_samples": 13,
+      "level": "word"
+    },
+    {
+      "id": "word_014",
+      "gloss": "DO",
+      "frame_samples": 12,
+      "level": "word"
+    },
+    {
+      "id": "word_015",
+      "gloss": "OLD_AGE",
+      "frame_samples": 12,
+      "level": "word"
+    },
+    {
+      "id": "word_016",
+      "gloss": "REALLY",
+      "frame_samples": 12,
+      "level": "word"
+    },
+    {
+      "id": "word_017",
+      "gloss": "THAT",
+      "frame_samples": 12,
+      "level": "word"
+    },
+    {
+      "id": "word_018",
+      "gloss": "ANGRY",
+      "frame_samples": 10,
+      "level": "word"
+    },
+    {
+      "id": "word_019",
+      "gloss": "SOME ONE",
+      "frame_samples": 10,
+      "level": "word"
+    },
+    {
+      "id": "word_020",
+      "gloss": "GO",
+      "frame_samples": 9,
+      "level": "word"
+    },
+    {
+      "id": "word_021",
+      "gloss": "TELL",
+      "frame_samples": 9,
+      "level": "word"
+    },
+    {
+      "id": "word_022",
+      "gloss": "NUMBER",
+      "frame_samples": 8,
+      "level": "word"
+    },
+    {
+      "id": "word_023",
+      "gloss": "ROOM",
+      "frame_samples": 8,
+      "level": "word"
+    },
+    {
+      "id": "word_024",
+      "gloss": "TAKE CARE",
+      "frame_samples": 8,
+      "level": "word"
+    },
+    {
+      "id": "word_025",
+      "gloss": "AGREE",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_026",
+      "gloss": "BED",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_027",
+      "gloss": "BRING",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_028",
+      "gloss": "COLD",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_029",
+      "gloss": "COMB",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_030",
+      "gloss": "CONGRATULATIONS",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_031",
+      "gloss": "FEVER",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_032",
+      "gloss": "FREE",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_033",
+      "gloss": "FROM",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_034",
+      "gloss": "GOOD",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_035",
+      "gloss": "HEAR",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_036",
+      "gloss": "HUNGRY",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_037",
+      "gloss": "KIND",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_038",
+      "gloss": "LIKE_LOVE",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_039",
+      "gloss": "NAME",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_040",
+      "gloss": "PHONE",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_041",
+      "gloss": "POUR",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_042",
+      "gloss": "PROMISE",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_043",
+      "gloss": "SERVE",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_044",
+      "gloss": "SHIRT",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_045",
+      "gloss": "SO MUCH",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_046",
+      "gloss": "SOME HOW",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_047",
+      "gloss": "TAKE TIME",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_048",
+      "gloss": "TALK",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_049",
+      "gloss": "THINK",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_050",
+      "gloss": "THIRSTY",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_051",
+      "gloss": "TODAY",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_052",
+      "gloss": "WEAR",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_053",
+      "gloss": "WHERE",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_054",
+      "gloss": "WHO",
+      "frame_samples": 7,
+      "level": "word"
+    },
+    {
+      "id": "word_055",
+      "gloss": "AFRAID",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_056",
+      "gloss": "BORED",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_057",
+      "gloss": "CHAT",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_058",
+      "gloss": "COME",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_059",
+      "gloss": "DARE",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_060",
+      "gloss": "DILEMMA",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_061",
+      "gloss": "DISAPPOINTED",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_062",
+      "gloss": "FINE",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_063",
+      "gloss": "FRIEND",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_064",
+      "gloss": "GRATEFUL",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_065",
+      "gloss": "HEART",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_066",
+      "gloss": "HIDING",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_067",
+      "gloss": "LIKE",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_068",
+      "gloss": "MEDICINE",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_069",
+      "gloss": "OUTSIDE",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_070",
+      "gloss": "PREPARE",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_071",
+      "gloss": "REPEAT",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_072",
+      "gloss": "SORRY",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_073",
+      "gloss": "STOP",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_074",
+      "gloss": "SURE",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_075",
+      "gloss": "TIRED",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_076",
+      "gloss": "TURN ON",
+      "frame_samples": 6,
+      "level": "word"
+    },
+    {
+      "id": "word_077",
+      "gloss": "ABUSE",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_078",
+      "gloss": "APPRECIATE",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_079",
+      "gloss": "BAD",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_080",
+      "gloss": "BEAUTIFUL",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_081",
+      "gloss": "BECOME",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_082",
+      "gloss": "CLASS",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_083",
+      "gloss": "DIFFERENCE",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_084",
+      "gloss": "HAPPENED",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_085",
+      "gloss": "HAPPY",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_086",
+      "gloss": "LEAVE",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_087",
+      "gloss": "MEET",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_088",
+      "gloss": "SITTING",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_089",
+      "gloss": "SLEEP",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_090",
+      "gloss": "SLOWER",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_091",
+      "gloss": "SOFTLY",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_092",
+      "gloss": "SPEAK",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_093",
+      "gloss": "STUBBORN",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_094",
+      "gloss": "TRAIN",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_095",
+      "gloss": "UNDERSTAND",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_096",
+      "gloss": "WANT",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_097",
+      "gloss": "WELCOME",
+      "frame_samples": 5,
+      "level": "word"
+    },
+    {
+      "id": "word_098",
+      "gloss": "A LOT",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_099",
+      "gloss": "ALL",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_100",
+      "gloss": "ANYTHING",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_101",
+      "gloss": "ENJOY",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_102",
+      "gloss": "FAVOUR",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_103",
+      "gloss": "HAD",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_104",
+      "gloss": "HELLO_HI",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_105",
+      "gloss": "PLACE",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_106",
+      "gloss": "TRUST",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_107",
+      "gloss": "TRUTH",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_108",
+      "gloss": "WORRY",
+      "frame_samples": 4,
+      "level": "word"
+    },
+    {
+      "id": "word_109",
+      "gloss": "DON'T CARE",
+      "frame_samples": 3,
+      "level": "word"
+    },
+    {
+      "id": "word_110",
+      "gloss": "MEAN IT",
+      "frame_samples": 3,
+      "level": "word"
+    },
+    {
+      "id": "word_111",
+      "gloss": "ON THE WAY",
+      "frame_samples": 3,
+      "level": "word"
+    },
+    {
+      "id": "word_112",
+      "gloss": "SOMETHING",
+      "frame_samples": 3,
+      "level": "word"
+    },
+    {
+      "id": "word_113",
+      "gloss": "THINGS",
+      "frame_samples": 3,
+      "level": "word"
+    },
+    {
+      "id": "word_114",
+      "gloss": "PLEASE",
+      "frame_samples": 2,
+      "level": "word"
+    }
+  ],
+  "sentence_level_data": [
+    {
+      "id": "sent_001",
+      "sentence": "are you free today",
+      "gloss_sequence": [
+        "YOU",
+        "FREE",
+        "TODAY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 230,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_002",
+      "sentence": "are you hiding something",
+      "gloss_sequence": [
+        "YOU",
+        "HIDE",
+        "SOMETHING"
+      ],
+      "video_samples": 5,
+      "frame_samples": 215,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_003",
+      "sentence": "bring water for me",
+      "gloss_sequence": [
+        "BRING",
+        "WATER",
+        "ME"
+      ],
+      "video_samples": 5,
+      "frame_samples": 241,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_004",
+      "sentence": "can i help you",
+      "gloss_sequence": [
+        "I",
+        "HELP",
+        "YOU"
+      ],
+      "video_samples": 6,
+      "frame_samples": 173,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_005",
+      "sentence": "can you repeat that please",
+      "gloss_sequence": [
+        "YOU",
+        "REPEAT",
+        "PLEASE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 258,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_006",
+      "sentence": "comb your hair",
+      "gloss_sequence": [
+        "COMB",
+        "YOU",
+        "HAIR"
+      ],
+      "video_samples": 5,
+      "frame_samples": 151,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_007",
+      "sentence": "congratulations",
+      "gloss_sequence": [
+        "CONGRATULATIIONS"
+      ],
+      "video_samples": 5,
+      "frame_samples": 123,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_008",
+      "sentence": "could you please talk slower",
+      "gloss_sequence": [
+        "YOU",
+        "PLEASE",
+        "TALK",
+        "SLOWER"
+      ],
+      "video_samples": 5,
+      "frame_samples": 293,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_009",
+      "sentence": "do me a favour",
+      "gloss_sequence": [
+        "DO",
+        "ME",
+        "FAVOUR"
+      ],
+      "video_samples": 5,
+      "frame_samples": 163,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_010",
+      "sentence": "do not abuse him",
+      "gloss_sequence": [
+        "DONOT",
+        "ABUSE",
+        "HIM"
+      ],
+      "video_samples": 4,
+      "frame_samples": 120,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_011",
+      "sentence": "do not be stubborn",
+      "gloss_sequence": [
+        "DONOT",
+        "BE",
+        "STUBBORN"
+      ],
+      "video_samples": 4,
+      "frame_samples": 183,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_012",
+      "sentence": "do not hurt me",
+      "gloss_sequence": [
+        "DONOT",
+        "HURT",
+        "ME"
+      ],
+      "video_samples": 5,
+      "frame_samples": 159,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_013",
+      "sentence": "do not make me angry",
+      "gloss_sequence": [
+        "DO",
+        "NOT",
+        "MAKE",
+        "ME",
+        "ANGRY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 234,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_014",
+      "sentence": "do not take it to the heart",
+      "gloss_sequence": [
+        "DO",
+        "NOT",
+        "TAKE",
+        "IT",
+        "HEART"
+      ],
+      "video_samples": 5,
+      "frame_samples": 263,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_015",
+      "sentence": "do not worry",
+      "gloss_sequence": [
+        "DO",
+        "NOT",
+        "WORRY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 150,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_016",
+      "sentence": "do you need something",
+      "gloss_sequence": [
+        "DO",
+        "YOU",
+        "NEED",
+        "SOMETHING"
+      ],
+      "video_samples": 5,
+      "frame_samples": 244,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_017",
+      "sentence": "go and sleep",
+      "gloss_sequence": [
+        "GO",
+        "SLEEP"
+      ],
+      "video_samples": 6,
+      "frame_samples": 207,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_018",
+      "sentence": "had your food",
+      "gloss_sequence": [
+        "YOUR",
+        "FOOD"
+      ],
+      "video_samples": 5,
+      "frame_samples": 135,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_019",
+      "sentence": "he came by train",
+      "gloss_sequence": [
+        "HE",
+        "CAME",
+        "TRAIN"
+      ],
+      "video_samples": 5,
+      "frame_samples": 149,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_020",
+      "sentence": "He is going into the room",
+      "gloss_sequence": [
+        "HE",
+        "GO",
+        "INTO",
+        "ROOM"
+      ],
+      "video_samples": 5,
+      "frame_samples": 216,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_021",
+      "sentence": "he is on the way",
+      "gloss_sequence": [
+        "HE",
+        "ON",
+        "WAY"
+      ],
+      "video_samples": 4,
+      "frame_samples": 321,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_022",
+      "sentence": "he she is my friend",
+      "gloss_sequence": [
+        "HE",
+        "SHE",
+        "MY",
+        "FRIEND"
+      ],
+      "video_samples": 5,
+      "frame_samples": 215,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_023",
+      "sentence": "he would be coming today",
+      "gloss_sequence": [
+        "HE",
+        "COMING",
+        "TODAY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 0,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_024",
+      "sentence": "help me",
+      "gloss_sequence": [
+        "HELP",
+        "ME"
+      ],
+      "video_samples": 5,
+      "frame_samples": 198,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_025",
+      "sentence": "hi how are you",
+      "gloss_sequence": [
+        "HI",
+        "HOW",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 303,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_026",
+      "sentence": "how are things",
+      "gloss_sequence": [
+        "HOW",
+        "THINGS"
+      ],
+      "video_samples": 4,
+      "frame_samples": 519,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_027",
+      "sentence": "how can i help you",
+      "gloss_sequence": [
+        "HOW",
+        "I",
+        "HELP",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 234,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_028",
+      "sentence": "how can i trust you",
+      "gloss_sequence": [
+        "HOW",
+        "I",
+        "TRUST",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 274,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_029",
+      "sentence": "how dare you",
+      "gloss_sequence": [
+        "HOW",
+        "DARE",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 142,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_030",
+      "sentence": "how old are you",
+      "gloss_sequence": [
+        "HOW",
+        "OLD",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 238,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_031",
+      "sentence": "i am (age)",
+      "gloss_sequence": [
+        "I",
+        "(AGE)"
+      ],
+      "video_samples": 5,
+      "frame_samples": 168,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_032",
+      "sentence": "i am afraid of that",
+      "gloss_sequence": [
+        "I",
+        "AFRAID",
+        "THAT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 204,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_033",
+      "sentence": "i am crying",
+      "gloss_sequence": [
+        "I",
+        "CRY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 173,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_034",
+      "sentence": "i am feeling bored",
+      "gloss_sequence": [
+        "I",
+        "FEELING",
+        "BORED"
+      ],
+      "video_samples": 5,
+      "frame_samples": 197,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_035",
+      "sentence": "i am feeling cold",
+      "gloss_sequence": [
+        "I",
+        "FEELING",
+        "COLD"
+      ],
+      "video_samples": 5,
+      "frame_samples": 142,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_036",
+      "sentence": "i am fine. thank you sir",
+      "gloss_sequence": [
+        "I",
+        "FINE.",
+        "THANK",
+        "YOU",
+        "SIR"
+      ],
+      "video_samples": 5,
+      "frame_samples": 124,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_037",
+      "sentence": "i am hungry",
+      "gloss_sequence": [
+        "I",
+        "HUNGRY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 260,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_038",
+      "sentence": "i am in dilemma what to do",
+      "gloss_sequence": [
+        "I",
+        "IN",
+        "DILEMMA",
+        "WHAT",
+        "TO",
+        "DO"
+      ],
+      "video_samples": 5,
+      "frame_samples": 260,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_039",
+      "sentence": "i am not really sure",
+      "gloss_sequence": [
+        "I",
+        "NOT",
+        "REALLY",
+        "SURE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 237,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_040",
+      "sentence": "i am really grateful",
+      "gloss_sequence": [
+        "I",
+        "REALLY",
+        "GRATEFUL"
+      ],
+      "video_samples": 5,
+      "frame_samples": 290,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_041",
+      "sentence": "i am sitting in the class",
+      "gloss_sequence": [
+        "I",
+        "SITTING",
+        "IN",
+        "THE",
+        "CLASS"
+      ],
+      "video_samples": 5,
+      "frame_samples": 208,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_042",
+      "sentence": "i am so sorry to hear that",
+      "gloss_sequence": [
+        "I",
+        "AM",
+        "SO",
+        "SORRY",
+        "TO",
+        "HEAR",
+        "THAT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 114,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_043",
+      "sentence": "i am suffering from fever",
+      "gloss_sequence": [
+        "I",
+        "SUFFERING",
+        "FROM",
+        "FEVER"
+      ],
+      "video_samples": 5,
+      "frame_samples": 171,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_044",
+      "sentence": "i am tired",
+      "gloss_sequence": [
+        "I",
+        "TIRED"
+      ],
+      "video_samples": 5,
+      "frame_samples": 172,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_045",
+      "sentence": "i am very happy",
+      "gloss_sequence": [
+        "I",
+        "VERY",
+        "HAPPY"
+      ],
+      "video_samples": 4,
+      "frame_samples": 122,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_046",
+      "sentence": "i can not help you there",
+      "gloss_sequence": [
+        "I",
+        "NOT",
+        "HELP",
+        "YOU",
+        "THERE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 272,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_047",
+      "sentence": "i do not agree",
+      "gloss_sequence": [
+        "I",
+        "DONOT",
+        "AGREE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 157,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_048",
+      "sentence": "i do not like it",
+      "gloss_sequence": [
+        "I",
+        "DO",
+        "NOT",
+        "LIKE",
+        "IT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 159,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_049",
+      "sentence": "i do not mean it",
+      "gloss_sequence": [
+        "I",
+        "DO",
+        "NOT",
+        "MEAN",
+        "IT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 178,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_050",
+      "sentence": "i dont agree",
+      "gloss_sequence": [
+        "I",
+        "DONT",
+        "AGREE"
+      ],
+      "video_samples": 1,
+      "frame_samples": 0,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_051",
+      "sentence": "i enjoyed a lot",
+      "gloss_sequence": [
+        "I",
+        "ENJOYED",
+        "A",
+        "LOT"
+      ],
+      "video_samples": 6,
+      "frame_samples": 153,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_052",
+      "sentence": "i got hurt",
+      "gloss_sequence": [
+        "I",
+        "GOT",
+        "HURT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 117,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_053",
+      "sentence": "i like you i love you",
+      "gloss_sequence": [
+        "I",
+        "LIKE",
+        "YOU",
+        "I",
+        "LOVE",
+        "YOU"
+      ],
+      "video_samples": 6,
+      "frame_samples": 157,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_054",
+      "sentence": "i need water",
+      "gloss_sequence": [
+        "I",
+        "NEED",
+        "WATER"
+      ],
+      "video_samples": 5,
+      "frame_samples": 302,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_055",
+      "sentence": "i promise",
+      "gloss_sequence": [
+        "I",
+        "PROMISE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 132,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_056",
+      "sentence": "i really appreciate it",
+      "gloss_sequence": [
+        "I",
+        "REALLY",
+        "APPRECIATE",
+        "IT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 255,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_057",
+      "sentence": "i somehow got to know about it",
+      "gloss_sequence": [
+        "I",
+        "SOMEHOW",
+        "GOT",
+        "KNOW",
+        "ABOUT",
+        "IT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 181,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_058",
+      "sentence": "i was stopped by some one",
+      "gloss_sequence": [
+        "I",
+        "STOPPED",
+        "BY",
+        "SOMEONE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 206,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_059",
+      "sentence": "it does not make any difference to me",
+      "gloss_sequence": [
+        "IT",
+        "DO",
+        "NOT",
+        "MAKE",
+        "ANY",
+        "DIFFERENCE",
+        "TO",
+        "ME"
+      ],
+      "video_samples": 5,
+      "frame_samples": 274,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_060",
+      "sentence": "it was nice chatting with you",
+      "gloss_sequence": [
+        "IT",
+        "NICE",
+        "CHAT",
+        "WITH",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 334,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_061",
+      "sentence": "let him take time",
+      "gloss_sequence": [
+        "LET",
+        "HIM",
+        "TAKE",
+        "TIME"
+      ],
+      "video_samples": 5,
+      "frame_samples": 173,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_062",
+      "sentence": "my name is xxxxxxxx",
+      "gloss_sequence": [
+        "MY",
+        "NAME",
+        "XXXXXXXX"
+      ],
+      "video_samples": 5,
+      "frame_samples": 202,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_063",
+      "sentence": "nice to meet you",
+      "gloss_sequence": [
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 243,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_064",
+      "sentence": "No need to worry dont worry",
+      "gloss_sequence": [
+        "NO",
+        "NEED",
+        "WORRY",
+        "DONT",
+        "WORRY"
+      ],
+      "video_samples": 1,
+      "frame_samples": 0,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_065",
+      "sentence": "now onwards he will never hurt you",
+      "gloss_sequence": [
+        "NOW",
+        "ONWARDS",
+        "HE",
+        "NEVER",
+        "HURT",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 0,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_066",
+      "sentence": "pour some more water into the glass",
+      "gloss_sequence": [
+        "POUR",
+        "SOME",
+        "MORE",
+        "WATER",
+        "INTO",
+        "THE",
+        "GLASS"
+      ],
+      "video_samples": 5,
+      "frame_samples": 151,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_067",
+      "sentence": "prepare the bed",
+      "gloss_sequence": [
+        "PREPARE",
+        "BED"
+      ],
+      "video_samples": 5,
+      "frame_samples": 169,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_068",
+      "sentence": "serve the food",
+      "gloss_sequence": [
+        "SERVE",
+        "FOOD"
+      ],
+      "video_samples": 7,
+      "frame_samples": 154,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_069",
+      "sentence": "shall we go outside",
+      "gloss_sequence": [
+        "WE",
+        "GO",
+        "OUTSIDE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 154,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_070",
+      "sentence": "speak softly",
+      "gloss_sequence": [
+        "SPEAK",
+        "SOFTLY"
+      ],
+      "video_samples": 6,
+      "frame_samples": 141,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_071",
+      "sentence": "take care of yourself",
+      "gloss_sequence": [
+        "TAKE",
+        "CARE",
+        "OF",
+        "YOURSELF"
+      ],
+      "video_samples": 5,
+      "frame_samples": 145,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_072",
+      "sentence": "tell me truth",
+      "gloss_sequence": [
+        "TELL",
+        "ME",
+        "TRUTH"
+      ],
+      "video_samples": 4,
+      "frame_samples": 125,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_073",
+      "sentence": "thank you so much",
+      "gloss_sequence": [
+        "THANK",
+        "YOU",
+        "SO",
+        "MUCH"
+      ],
+      "video_samples": 5,
+      "frame_samples": 230,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_074",
+      "sentence": "that is so kind of you",
+      "gloss_sequence": [
+        "THAT",
+        "KIND",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 254,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_075",
+      "sentence": "This place is beautiful",
+      "gloss_sequence": [
+        "THIS",
+        "PLACE",
+        "BEAUTIFUL"
+      ],
+      "video_samples": 5,
+      "frame_samples": 250,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_076",
+      "sentence": "try to understand",
+      "gloss_sequence": [
+        "TRY",
+        "TO",
+        "UNDERSTAND"
+      ],
+      "video_samples": 5,
+      "frame_samples": 217,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_077",
+      "sentence": "turn on light turn off light",
+      "gloss_sequence": [
+        "TURN",
+        "ON",
+        "LIGHT",
+        "TURN",
+        "OFF",
+        "LIGHT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 203,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_078",
+      "sentence": "we are all with you",
+      "gloss_sequence": [
+        "WE",
+        "ALL",
+        "WITH",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 169,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_079",
+      "sentence": "wear the shirt",
+      "gloss_sequence": [
+        "WEAR",
+        "SHIRT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 172,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_080",
+      "sentence": "what are you doing",
+      "gloss_sequence": [
+        "WHAT",
+        "YOU",
+        "DO"
+      ],
+      "video_samples": 5,
+      "frame_samples": 250,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_081",
+      "sentence": "what did you tell him",
+      "gloss_sequence": [
+        "WHAT",
+        "YOU",
+        "TELL",
+        "HIM"
+      ],
+      "video_samples": 5,
+      "frame_samples": 134,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_082",
+      "sentence": "what do you do",
+      "gloss_sequence": [
+        "WHAT",
+        "YOU",
+        "DO"
+      ],
+      "video_samples": 4,
+      "frame_samples": 191,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_083",
+      "sentence": "what do you think",
+      "gloss_sequence": [
+        "WHAT",
+        "DO",
+        "YOU",
+        "THINK"
+      ],
+      "video_samples": 5,
+      "frame_samples": 229,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_084",
+      "sentence": "what do you want to become",
+      "gloss_sequence": [
+        "WHAT",
+        "DO",
+        "YOU",
+        "WANT",
+        "BECOME"
+      ],
+      "video_samples": 5,
+      "frame_samples": 157,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_085",
+      "sentence": "what happened",
+      "gloss_sequence": [
+        "WHAT",
+        "HAPPENED"
+      ],
+      "video_samples": 5,
+      "frame_samples": 119,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_086",
+      "sentence": "what have you planned for your career",
+      "gloss_sequence": [
+        "WHAT",
+        "HAVE",
+        "YOU",
+        "PLAN",
+        "YOUR",
+        "CAREER"
+      ],
+      "video_samples": 1,
+      "frame_samples": 46,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_087",
+      "sentence": "what is your phone number",
+      "gloss_sequence": [
+        "WHAT",
+        "YOUR",
+        "PHONE",
+        "NUMBER"
+      ],
+      "video_samples": 5,
+      "frame_samples": 313,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_088",
+      "sentence": "what you want",
+      "gloss_sequence": [
+        "WHAT",
+        "YOU",
+        "WANT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 243,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_089",
+      "sentence": "when will the train leave",
+      "gloss_sequence": [
+        "WHEN",
+        "TRAIN",
+        "LEAVE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 134,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_090",
+      "sentence": "where are you from",
+      "gloss_sequence": [
+        "WHERE",
+        "YOU",
+        "FROM"
+      ],
+      "video_samples": 4,
+      "frame_samples": 234,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_091",
+      "sentence": "which college school are you from",
+      "gloss_sequence": [
+        "WHICH",
+        "COLLEGE",
+        "SCHOOL",
+        "YOU",
+        "FROM"
+      ],
+      "video_samples": 0,
+      "frame_samples": 0,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_092",
+      "sentence": "who are you",
+      "gloss_sequence": [
+        "WHO",
+        "YOU"
+      ],
+      "video_samples": 5,
+      "frame_samples": 110,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_093",
+      "sentence": "why are you angry",
+      "gloss_sequence": [
+        "WHY",
+        "YOU",
+        "ANGRY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 138,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_094",
+      "sentence": "why are you crying",
+      "gloss_sequence": [
+        "WHY",
+        "YOU",
+        "CRY"
+      ],
+      "video_samples": 5,
+      "frame_samples": 145,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_095",
+      "sentence": "why are you disappointed",
+      "gloss_sequence": [
+        "WHY",
+        "YOU",
+        "DISAPPOINTED"
+      ],
+      "video_samples": 5,
+      "frame_samples": 123,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_096",
+      "sentence": "you are bad",
+      "gloss_sequence": [
+        "YOU",
+        "BAD"
+      ],
+      "video_samples": 6,
+      "frame_samples": 93,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_097",
+      "sentence": "you are good",
+      "gloss_sequence": [
+        "YOU",
+        "GOOD"
+      ],
+      "video_samples": 5,
+      "frame_samples": 132,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_098",
+      "sentence": "you are welcome",
+      "gloss_sequence": [
+        "YOU",
+        "WELCOME"
+      ],
+      "video_samples": 5,
+      "frame_samples": 179,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_099",
+      "sentence": "you can do it",
+      "gloss_sequence": [
+        "YOU",
+        "DO",
+        "IT"
+      ],
+      "video_samples": 5,
+      "frame_samples": 135,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_100",
+      "sentence": "you do anything, i do not care",
+      "gloss_sequence": [
+        "YOU",
+        "DO",
+        "ANYTHING,",
+        "I",
+        "DO",
+        "NOT",
+        "CARE"
+      ],
+      "video_samples": 4,
+      "frame_samples": 144,
+      "level": "sentence"
+    },
+    {
+      "id": "sent_101",
+      "sentence": "you need a medicine, take this one",
+      "gloss_sequence": [
+        "YOU",
+        "NEED",
+        "A",
+        "MEDICINE,",
+        "TAKE",
+        "THIS",
+        "ONE"
+      ],
+      "video_samples": 5,
+      "frame_samples": 276,
+      "level": "sentence"
+    }
+  ]
+}
