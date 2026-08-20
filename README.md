@@ -1,10 +1,10 @@
 # ISL Translation System
 
 ## Team Members
-- Person 1 - Computer Vision
-- Person 2 - NLP
-- Person 3 - Browser Extension
-- Person 4 - Pipeline Integration
+- Sadhana Belhekar - Computer Vision
+- Shivani Bankar - NLP
+- Jiya Barage - Browser Extension
+- Bhakti Patil - Pipeline Integration
 
 ## Project Structure
 - cv-module/
