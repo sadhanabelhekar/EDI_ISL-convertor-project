@@ -1,0 +1,6 @@
+   data/dataset_index.json
+   data/ISL_CSLRT_Corpus/
+   __pycache__/
+   *.pyc
+   node_modules/
+   .env
