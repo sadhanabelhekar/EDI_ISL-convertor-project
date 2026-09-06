@@ -5,3 +5,5 @@ __pycache__/
 node_modules/
 .env
 venv/
+cv-module/models/landmarks_data/
+cv-module/models/hand_landmarker.task
