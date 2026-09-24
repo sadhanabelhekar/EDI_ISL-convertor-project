@@ -7,3 +7,4 @@ node_modules/
 venv/
 cv-module/models/landmarks_data/
 cv-module/models/hand_landmarker.task
+cv-module/models/sequence_data/
