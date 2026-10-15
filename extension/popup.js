@@ -1,5 +1,4 @@
-
-const video = document.getElementById('preview');
+﻿const video = document.getElementById('preview');
 const status = document.getElementById('status');
 const startBtn = document.getElementById('startBtn');
 
