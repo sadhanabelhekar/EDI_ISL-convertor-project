@@ -1,24 +1,16 @@
 """
 stage8_extract_sequences.py
 
-Stage 8a — extracts landmark SEQUENCES (not single frames) from your
-sentence-level dataset, preserving frame order within each video take.
-This is what captures motion, unlike Stage 4's single-frame extraction.
+Stage 8a - extracts landmark SEQUENCES from the sentence-level dataset.
+Uses BOTH hands: each frame = 126 numbers (left hand 63 + right hand 63).
+Each take is reduced to MAX_SEQ_LEN frames spread evenly over the whole video.
 
-WHERE TO PUT THIS FILE:
-    cv-module/models/stage8_extract_sequences.py
-
-BEFORE RUNNING:
-    Same hand_landmarker.task file from Stage 4 must be in cv-module/models/
-
-HOW TO RUN (from inside cv-module/, with venv activated):
+HOW TO RUN (from inside cv-module/, venv activated):
     python models/stage8_extract_sequences.py
 
 WHAT IT PRODUCES:
-    cv-module/models/sequence_data/<sent_id>_<take>.npy   (one per video take)
-        shape: (MAX_SEQ_LEN, 63)  -- zero-padded/truncated
+    cv-module/models/sequence_data/<sent_id>_<take>.npy   shape: (20, 126)
     cv-module/models/sequence_data/labels.json
-        maps each saved file to its sentence text (the classification label)
 """
 
 import json
@@ -35,14 +27,15 @@ DATASET_ROOT = "../data/ISL_CSLRT_Corpus"
 OUTPUT_DIR = "models/sequence_data"
 MODEL_PATH = "models/hand_landmarker.task"
 
-MAX_SEQ_LEN = 20  # frames per sequence; shorter takes are zero-padded, longer ones truncated
+MAX_SEQ_LEN = 20
+NUM_FEATURES = 126  # 2 hands x 21 landmarks x 3 coords
 
 
 def build_detector():
     base_options = mp_python.BaseOptions(model_asset_path=MODEL_PATH)
     options = mp_vision.HandLandmarkerOptions(
         base_options=base_options,
-        num_hands=1,
+        num_hands=2,
         running_mode=mp_vision.RunningMode.IMAGE,
     )
     return mp_vision.HandLandmarker.create_from_options(options)
@@ -51,27 +44,34 @@ def build_detector():
 def extract_landmarks(detector, image_path):
     image_bgr = cv2.imread(image_path)
     if image_bgr is None:
-        return None
+        return [0.0] * NUM_FEATURES
     image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
     mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=image_rgb)
     result = detector.detect(mp_image)
     if not result.hand_landmarks:
-        return [0.0] * 63  # no hand found -- zero vector, not a dropped frame,
-                            # so sequence timing/order stays intact
-    first_hand = result.hand_landmarks[0]
+        return [0.0] * NUM_FEATURES
+
+    # slot 0 = "Left" hand, slot 1 = "Right" hand
+    slots = [None, None]
+    for hand, handed in zip(result.hand_landmarks, result.handedness):
+        wanted = 0 if handed[0].category_name == "Left" else 1
+        if slots[wanted] is not None:
+            wanted = 1 - wanted
+        if slots[wanted] is None:
+            slots[wanted] = hand
+
     coords = []
-    for point in first_hand:
-        coords.extend([point.x, point.y, point.z])
+    for hand in slots:
+        if hand is None:
+            coords.extend([0.0] * 63)
+        else:
+            wrist = hand[0]
+            for p in hand:
+                coords.extend([p.x - wrist.x, p.y - wrist.y, p.z - wrist.z])
     return coords
 
 
 def group_frames_by_take(frame_paths):
-    """
-    Frame paths look like:
-      ISL_CSLRT_Corpus/Frames_Sentence_Level/are you free today/1/are you free today 01.jpg
-    The folder right before the filename (here "1") is the take number.
-    The trailing number in the filename is the frame order within that take.
-    """
     takes = {}
     for path in frame_paths:
         parts = path.replace("\\", "/").split("/")
@@ -90,11 +90,13 @@ def group_frames_by_take(frame_paths):
 
 def pad_or_truncate(sequence, max_len):
     seq = np.array(sequence)
-    if len(seq) >= max_len:
-        return seq[:max_len]
+    if len(seq) > max_len:
+        idx = np.linspace(0, len(seq) - 1, max_len).round().astype(int)
+        return seq[idx]
+    if len(seq) == max_len:
+        return seq
     pad_rows = max_len - len(seq)
-    padding = np.zeros((pad_rows, 63))
-    return np.vstack([seq, padding])
+    return np.vstack([seq, np.zeros((pad_rows, NUM_FEATURES))])
 
 
 def main():
@@ -125,8 +127,7 @@ def main():
             sequence = []
             for rel_path in ordered_paths:
                 full_path = os.path.join(os.path.dirname(DATASET_ROOT), rel_path)
-                coords = extract_landmarks(detector, full_path)
-                sequence.append(coords)
+                sequence.append(extract_landmarks(detector, full_path))
 
             padded = pad_or_truncate(sequence, MAX_SEQ_LEN)
             out_name = f"{sent_id}_{take_id}.npy"
